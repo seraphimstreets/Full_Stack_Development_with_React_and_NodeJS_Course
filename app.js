@@ -47,12 +47,7 @@ app.use(passport.initialize());
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-
-
-
 app.use(express.static(path.join(__dirname, 'public')));
-
-
 app.use('/dishes', dishRouter);
 app.use('/promotions', promoRouter);
 app.use('/leaders',leadersRouter);
