@@ -43,5 +43,9 @@ git clone https://github.com/seraphimstreets/Full_Stack_Development_with_React_a
 # Screenshots
 
 ![Page1](https://i.imgur.com/oPCZLDa.png)
+
+
 ![Page2](https://i.imgur.com/JNkvrUm.png)
+
+
 ![Page3](https://i.imgur.com/7ZQocaL.png)
