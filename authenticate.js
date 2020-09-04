@@ -8,6 +8,7 @@ var jwt = require('jsonwebtoken');
 const Dishes = require('./models/dishes');
 var config = require('./config');
 var FacebookTokenStrategy = require('passport-facebook-token')
+var User = require('./models/user');
 
 exports.local = passport.use(new LocalStrategy(User.authenticate()));
 passport.serializeUser(User.serializeUser());
@@ -22,12 +23,13 @@ opts.jwtFromRequest = ExtractJwt.fromAuthHeaderAsBearerToken();
 opts.secretOrKey = config.secretKey;
 
 exports.jwtPassport = passport.use(new JwtStrategy(opts, (jwt_payload, done) => {
-    console.log(jwt_payload);
+    
     User.findOne({_id:jwt_payload._id}, (err, user) => {
         if (err){
             return done(err)
         }
         else if (user){
+            
             return done(null, user);
         }
         else{

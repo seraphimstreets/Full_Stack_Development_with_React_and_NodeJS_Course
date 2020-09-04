@@ -136,7 +136,7 @@ commentRouter.route('/:commentId')
                 res.json(resp)
             }, err => next(err))
             .catch(err => next(err));;
-            
+
         }else{
             err = new Error('Comment ' + req.params.commentId + ' not found')
             err.status = 404
@@ -146,3 +146,5 @@ commentRouter.route('/:commentId')
     }, (err) => next(err))
     .catch(err => next(err));
 });
+
+module.exports  = commentRouter

@@ -19,7 +19,7 @@ function checkId(list, id){
 }
 
 favouriteRouter.route('/')
-.options('*', cors.corsWithOptions, (req, res, next) => { res.sendStatus(200)})
+.options( cors.corsWithOptions, (req, res, next) => { res.sendStatus(200)})
 .get(cors.corsWithOptions, authenticate.verifyUser, authenticate.verifyAuthor, (req,res,next) => {
     Favourites
     .findOne({"user": req.user._id})
