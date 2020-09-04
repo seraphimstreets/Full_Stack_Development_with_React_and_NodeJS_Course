@@ -1,19 +1,23 @@
-# Full_Stack_Development_with_React_and_NodeJS_Course
+# Full Stack Development with React and NodeJS 
 
 The final product of the Full-Stack Web Development with React specialization by the Hong Kong University of Science and Technology on Coursera. 
 
 This specialization is comprised of 4 parts:
 
 **1) Front-End UI Frameworks and Tools: Bootstrap 4**
+
 Built an attractive frontend using the Boostrap 4 framework, and gained exposure to complementary libraries such as SASS/SCSS, JQuery, and deployment tools such as Grunt and Gulp. Learnt how to utilize the Node package manager (npm) and git.
 
 **2) Front-End Development with React**
+
 Comprehensive dive into the different aspects of the React framework (such as React components, routing, forms etc) and the guiding principles behind its creation. Explored its integration with the Redux store and understood the benefits of Redux architecture over the traditional FVC framework. 
 
 **3) Multiplatform Mobile App Development with React Native**
+
 Exploration of the capabilities of React Native, its benefits/drawbacks over native mobile applications, and its many features.
 
 **4) Server-side Development with NodeJS, Express and MongoDB**
+
 Learnt how to utilize Express and MongoDB to build a robust and secure backend. Learnt to perform schema creation and validation for MongoDB with Mongoose, local and third-party authentication with passport, testing with Postman. Acquired networking fundamentals for web dev including the REST API and associated HTTP/HTTPS protocols, OAuth, CORS, implementing cookies and sessions.   
 
 # How to run 
