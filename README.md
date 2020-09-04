@@ -40,4 +40,8 @@ git clone https://github.com/seraphimstreets/Full_Stack_Development_with_React_a
 6. On the first CLI, go to the root of the repository and run npm start. The server should be listening on port 3443. 
 7. On the second CLI, enter the conFusion-React folder from the root and run npm start. This should start the frontend React server, allowing it to access data from the backend to serve at the client-side. 
 
-#Screenshots
+# Screenshots
+
+![Page1](https://i.imgur.com/oPCZLDa.png)
+![Page2](https://i.imgur.com/JNkvrUm.png)
+![Page3](https://i.imgur.com/7ZQocaL.png)
